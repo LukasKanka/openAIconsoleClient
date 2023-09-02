@@ -18,7 +18,7 @@ while (true)
     var ai = new OpenAIAPI(new APIAuthentication("Jsem vložíš API key", "Jsem vložíš Organization ID"));
 
     ChatRequest request = new ChatRequest();
-    request.user = "Lukáš Kaňka";
+    request.user = "Jsem vlož uživatele(pokud v organizaci je vás více)";
     request.Model = Model.ChatGPTTurbo;
     request.Messages = messages;
     request.Temperature = 0.7;
