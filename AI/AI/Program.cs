@@ -30,7 +30,7 @@ while (true)
     var response = await ai.Chat.CreateChatCompletionAsync(request);
     string answer = response.Choices.FirstOrDefault().Message.Content;
     messages.Add(response.Choices.FirstOrDefault().Message);
+    Console.ForegroundColor = ConsoleColor.Blue;
     Console.WriteLine(answer);
+    Console.ResetColor();
 }
-
-

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\openAI\\openAI\\openAI.csproj": {}
+    "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\AI\\AI\\AI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\openAI\\openAI\\openAI.csproj": {
+    "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\AI\\AI\\AI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\openAI\\openAI\\openAI.csproj",
-        "projectName": "openAI",
-        "projectPath": "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\openAI\\openAI\\openAI.csproj",
+        "projectUniqueName": "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\AI\\AI\\AI.csproj",
+        "projectName": "AI",
+        "projectPath": "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\AI\\AI\\AI.csproj",
         "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\openAI\\openAI\\obj\\",
+        "outputPath": "C:\\Users\\lukas\\Nextcloud\\GitHub\\openAIconsoleClient\\AI\\AI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
