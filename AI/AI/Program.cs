@@ -5,7 +5,9 @@ using System.Reflection;
 
 List<ChatMessage> messages = new();
 messages.Add(new ChatMessage(ChatMessageRole.System, "Odpovídej v bodech"));
+Console.ForegroundColor = ConsoleColor.DarkRed;
 Console.WriteLine("Nazdárek jsem tvá osobní AI, co tě zajímá?");
+Console.ResetColor();
 
 
 while (true)
