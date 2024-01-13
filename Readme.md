@@ -14,3 +14,4 @@
 ```
 
 * V případě jakých koliv dotazů rád odpovím a poradím.
+* https://gist.github.com/LukasKanka/94109e96fd066742a52ea66c977578cc
